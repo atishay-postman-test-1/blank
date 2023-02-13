@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "008659e7-1ecc-4982-8d2b-e9b9759b05c6",
+		"name": "My Collection Copy 2!!xx",
+		"description": "This is a test collection!",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Request 1",
+			"_postman_id": "615db2d2-6121-4d0c-b2fe-c848af830c8c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.postman-echo.com/get?param1=value1",
+					"protocol": "https",
+					"host": [
+						"www",
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "param1",
+							"value": "value1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
